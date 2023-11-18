@@ -5,7 +5,7 @@ answer = input(" You've come to a fork in the road. Wich direction do you want t
 
 
 if answer == "left":
-    answer = input (" Woah! What is that over there?! Do you see that?! It's a pirate ship! Are we wanting to take it? Yes or No? " ).lower()
+    answer = input (" Woah! What is that over there?! Do you see that?! It's a pirate ship! Are we wanting to take it? yes or No? " ).lower()
 
     if answer == "yes":
         Q2_answer = input ("Sweet! These guys look kinda shady. Ask to join them anyway? Type, 'yes' for yes & 'no' for no. " ).lower()
