@@ -11,10 +11,10 @@ if answer == "left":
         Q2_answer = input ("Sweet! These guys look kinda shady. Ask to join them anyway? Type, 'yes' for yes & 'no' for no. " ).lower()
 
         if Q2_answer == "yes":
-            print("Damn, the party ended so early. You shared many laughs with these guys. Had deep conversations over drinks...you should of trusted your gut though. :C They traded you for a bag of potatos. :, C ")
+            Q2_answer = input ("Damn, the party ended so early. You shared many laughs with these guys. Had deep conversations over drinks...you should of trusted your gut though. :C They traded you for a bag of potatos. :, C ")
 
         elif Q2_answer =="no":
-            print("You made a fantastic choice. Ounce you contiued your path, you ran into a friendly trutle carrying a golden box. He gave it to you. How exciting! I hope you can find the key! ")
+            Q2_answer = input ("You made a fantastic choice. Ounce you contiued your path, you ran into a friendly trutle carrying a golden box. He gave it to you. How exciting! I hope you can find the key! ")
 
         else:
             print("Wah, wah, wah...you fell into a pool of lava. R.I.P ")
