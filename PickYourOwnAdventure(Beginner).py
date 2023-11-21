@@ -31,10 +31,10 @@ elif answer == "right":
     Q3_answer = input("I've never seen such a gorgeous field of flowers. Do you want to explore it? Type, 'yes' for yes & 'no' for no. ").lower()
 
     if Q3_answer =="yes":
-        print("Oh wow! You've founded a golden key! I wonder what it opens??" )
+        Q3_answer = input ("Oh wow! You've founded a golden key! I wonder what it opens??" )
 
     elif Q3_answer =="no":
-        print("Ughh, how lame. You followed the path all the way to a cliff. Atleast you have an abundant amount of rations & water. ")
+        Q3_answer = input ("Ughh, how lame. You followed the path all the way to a cliff. Atleast you have an abundant amount of rations & water. ")
                 
 else:
     print("Oh no, you ran into a hacksaw. R.I.P" )
